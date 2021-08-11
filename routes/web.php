@@ -23,3 +23,9 @@ Route::post('google-sheet/store','GoogleSheetController@store');
 
 
 Route::get('dropboxFileUpload', 'DropboxController@dropboxFileUpload');
+
+
+
+Route::get('imap','IMAPController@index');
+Route::get('imap/view','IMAPController@view');
+Route::get('imap/read','IMAPController@read');
